@@ -2278,7 +2278,7 @@ justify-content:center!important}
 					background-image:url(../imgg/nayeem.jpg);background-size:cover;text-align:center;
 					background-position:50%;min-height:670px}
 
-					#castle .castle-overlay{content:"";background-image:url(../img/castle-);
+					#castle .castle-overlay{content:"";background-image:url(../imgg/);
 				background-size:cover;background-position:top;display:block;top:0;left:0;height:100%;width:100%;position:absolute}
 				@media only screen and (max-width:767px){#castle .castle-overlay{width:200%}}#castle h2{color:#ec008c;font-weight:500;margin-top:300px}
 				#castle h2 span{color:#fff;font-weight:400}@media only screen and (max-width:767px){#castle h2{font-size:1.8rem;max-width:90%}}
