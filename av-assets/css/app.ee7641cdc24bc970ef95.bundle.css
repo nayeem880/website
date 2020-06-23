@@ -2294,7 +2294,7 @@ justify-content:center!important}
 					display:flex;-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;align-items:center;overflow:hidden;
 					position:relative;
 					text-align:center;
-					background-image:url(../imgg/sj.jpg);background-size:cover;text-align:center;
+					background-color: black; background-size:cover;text-align:center;
 					background-position:50%;min-height:670px;
 					color:#343a40}
 
