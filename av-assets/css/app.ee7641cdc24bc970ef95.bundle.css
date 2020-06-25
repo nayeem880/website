@@ -2184,8 +2184,8 @@ justify-content:center!important}
 
 /* incentives 2 */
 
-#incentives2{padding:155px 0 120px;background-image:url(../imgg/.png);
-					background-color:#000;background-size:200%;background-repeat:no-repeat;
+#incentives2{padding:155px 0 120px;;
+					background-size:200%;background-repeat:no-repeat;
 					text-align:center;min-height:670px;color:#fff}
 
 					@media only screen and (min-width:992px){
@@ -2335,8 +2335,13 @@ justify-content:center!important}
 					cursor:default;border:1px solid #ccc;border-top:0;background:#fff;box-shadow:-1px 1px 3px rgba(0,0,0,.1);position:absolute;display:none;
 					z-index:9999;max-height:254px;overflow:hidden;overflow-y:auto;box-sizing:border-box;border-bottom-right-radius:5px;border-bottom-left-radius:5px;margin-top:-5px}.autocomplete-suggestions 
 				.autocomplete-suggestion{position:relative;padding:0 .6em;line-height:23px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:1.02em;color:#333}.autocomplete-suggestions .autocomplete-suggestion strong{font-weight:400;color:#ec008c}.autocomplete-suggestions 
-				.autocomplete-suggestion.autocomplete-selected{background:#fff9fc}#faq{padding:100px 0;display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;align-items:center;overflow:hidden;
-					position:relative;background-color:black;background-size:cover;text-align:center;background-position:50%;color:#fff}
+				.autocomplete-suggestion.autocomplete-selected{background:#fff9fc}
+
+
+
+
+				#faq{padding:100px 0;display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;align-items:center;overflow:hidden;
+					position:relative;background-image: url(../img/bg.jpg); background-size:cover;text-align:center;background-position:50%;color:#fff}
 				@media only screen and (min-width:992px){#faq{min-height:670px;padding:0}}#faq h2{color:#ec008c;font-weight:500;font-size:3.5rem;text-transform:uppercase;max-width:920px;margin:0 auto 30px}
 				@media only screen and (max-width:767px){#faq h2{font-size:2.2rem}}#faq ul{margin-top:10px;text-align:left;cursor:pointer}@media only screen and (max-width:991px){#faq ul{padding:0}}#faq ul li{list-style:none;background:#282828;color:#fff;padding:5px 20px;line-height:20px;margin-bottom:3px}#faq ul li:nth-child(2n){background:#474747}#faq .panel-body{margin-top:10px}#apply{padding:100px 0;display:-ms-flexbox;display:flex;
 					-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;align-items:center;overflow:hidden;position:relative;
