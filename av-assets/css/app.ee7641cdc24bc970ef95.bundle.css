@@ -2275,7 +2275,7 @@ justify-content:center!important}
 				#castle{height:calc(100vh - 60px);display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;
 					align-items:center;overflow:hidden;position:relative;
 
-					background-image:url(../imgg/nayeem.jpg);background-size:cover;text-align:center;
+					background-image:url(../imgg/1.png);background-size:cover;text-align:center;
 					background-position:50%;min-height:670px}
 
 					#castle .castle-overlay{content:"";background-image:url(../imgg/);
