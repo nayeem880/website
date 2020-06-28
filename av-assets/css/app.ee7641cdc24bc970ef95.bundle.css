@@ -2341,7 +2341,7 @@ justify-content:center!important}
 
 
 				#faq{padding:100px 0;display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;align-items:center;overflow:hidden;
-					position:relative;background-image: url(../img/bg.jpg); background-size:cover;text-align:center;background-position:50%;color:#fff}
+					position:relative;background-color: black; background-size:cover;text-align:center;background-position:50%;color:#fff}
 				@media only screen and (min-width:992px){#faq{min-height:670px;padding:0}}#faq h2{color:#ec008c;font-weight:500;font-size:3.5rem;text-transform:uppercase;max-width:920px;margin:0 auto 30px}
 				@media only screen and (max-width:767px){#faq h2{font-size:2.2rem}}#faq ul{margin-top:10px;text-align:left;cursor:pointer}@media only screen and (max-width:991px){#faq ul{padding:0}}#faq ul li{list-style:none;background:#282828;color:#fff;padding:5px 20px;line-height:20px;margin-bottom:3px}#faq ul li:nth-child(2n){background:#474747}#faq .panel-body{margin-top:10px}#apply{padding:100px 0;display:-ms-flexbox;display:flex;
 					-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;align-items:center;overflow:hidden;position:relative;
