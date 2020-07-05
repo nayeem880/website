@@ -2497,3 +2497,37 @@ body{
 	font-size: 12px;
 	text-align: center;
 }
+
+
+
+.my-btn-trans{
+	width: 180px; 
+	height: auto;
+	background-color: transparent;
+	margin: 10px; 
+	cursor: pointer;
+	border: 2px solid #FF1493;
+	color: white;
+	border-radius: 20px;
+	font-size: 12px;
+	text-align: center;
+    padding: 10px;
+
+
+}
+
+.my-btn-trans:hover{
+	padding: 10px;
+	width: 180px; 
+	height: auto;
+	background-image:linear-gradient(225deg,#8f0049,#fe0081 50%,#8f0049);
+	color:#fff;
+	transition:all .5s ease-in-out;
+	margin: 10px; 
+	cursor: pointer;
+	border: 2px solid #FF1493;
+	border-radius: 20px;
+	font-size: 12px;
+	text-align: center;
+}
+
