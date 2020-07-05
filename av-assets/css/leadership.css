@@ -1,0 +1,48 @@
+#leadership{height:calc(100vh - 60px);margin-top:60px;
+					display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;
+					align-items:center;overflow:hidden;position:relative;color:#fff}#leadership:before{content:"";background-image:url(../cover/leadership.jpg);
+				background-size:cover;background-position:top;display:block;top:0;left:0;height:100%;width:100%;position:absolute;transition:all 15s}
+				#leadership p{color:#fff;display:inline-block;margin:15px 20px}@media only screen and (max-width:767px){#leadership p{display:block;text-align:center}}
+				#leadership.loaded:before{transform:translate3d(0,20px,0) scale(1.25)}@media only screen and (min-width:768px){#leadership{min-height:660px}}#leadership img{margin-bottom:20px;max-width:314px;
+					height:auto}
+
+
+					@media only screen and (max-width:767px){
+						#leadership img{width:70%;display:block;margin:0 auto 25px}}
+						#leadership h1{color:#ec008c;font-weight:500;font-size:2.8rem;margin-bottom:50px}
+					    #leadership h1 span{color:#fff;font-weight:400}
+					@media only screen and (max-width:767px){
+					    #leadership h1{font-size:1.8rem}}
+
+			    #leadership a.btn{
+			    	background-size:300% 100%;background-position:100% 0;border-radius:10px;font-weight:700;display:inline-block;text-decoration:none;padding:10px 15px;font-size:22px;width:87%;box-shadow:2px 2px 10px #000;margin:0 auto;display:block}
+				#leadership a.btn,
+				#leadership a.btn:hover{
+					background-image:linear-gradient(45deg,#8f0049,#fe0081 50%,#8f0049);color:#fff;transition:all .5s ease-in-out}
+				#leadership a.btn:hover{background-position:0 0}
+				@media only screen and (min-width:768px){
+					#leadership a.btn{width:auto;display:initial}}
+				#leadership .arrow-container{color:#fff;opacity:.5;transition:1s ease;position:absolute;bottom:0;width:200px;height:50px}
+				#leadership .arrow-container:hover{opacity:1}
+				#leadership .arrow-container a{color:#fff}
+				#leadership .arrow-container a:hover{text-decoration:none}
+				#leadership .arrow-container p{position:relative;bottom:30px;font-size:20px;width:100%;text-align:center;margin:0}
+				
+				@media only screen and (max-width:767px){
+					#leadership a.btn{
+                    	width: 100px; height: 
+                    }
+
+
+					#leadership .arrow-container p{opacity:0}}
+					#leadership .arrow{
+						width:38px;height:14px; margin-top: 20px;
+					margin:auto;text-transform:uppercase;letter-spacing:3px;text-align:center;position:relative;left:0;right:0;bottom:30px;
+					animation:b 1.6s linear infinite}
+					#leadership .arrow ul{list-style:none}
+					#leadership .arrow ul li{width:24px;height:4px;background:#fff}
+					#leadership .arrow ul li:first-child{left:0;top:0;position:absolute;-ms-transform:rotate(45deg);transform:rotate(45deg);border-radius:5px 0 0 5px}
+					#leadership .arrow ul li:nth-child(2){left:14px;position:absolute;border-radius:0 5px 5px 0;top:0;-ms-transform:rotate(-45deg);transform:rotate(-45deg)}
+				    #leadership .arrow:hover{opacity:1}@keyframes b{0%{transform:translateY(0)}50%{transform:translateY(4px)}to{transform:translateY(0)}}
+
+
