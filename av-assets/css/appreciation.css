@@ -1,7 +1,7 @@
 
 #appreciations{height:calc(100vh - 60px);margin-top:60px;
 					display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;
-					align-items:center;overflow:hidden;position:relative;color:#fff}#appreciations:before{content:"";background-image:url(../cover/write.jpg);
+					align-items:center;overflow:hidden;position:relative;color:#fff}#appreciations:before{content:"";background-image:url(../cover/appreciation.jpg);
 				background-size:cover;background-position:top;display:block;top:0;left:0;height:100%;width:100%;position:absolute;transition:all 15s}
 				#appreciations p{color:#fff;display:inline-block;margin:15px 20px}@media only screen and (max-width:767px){#appreciations p{display:block;text-align:center}}
 				#appreciations.loaded:before{transform:translate3d(0,20px,0) scale(1.25)}@media only screen and (min-width:768px){#appreciations{min-height:660px}}#appreciations img{margin-bottom:20px;max-width:314px;
@@ -45,6 +45,9 @@
 					#appreciations .arrow ul li:first-child{left:0;top:0;position:absolute;-ms-transform:rotate(45deg);transform:rotate(45deg);border-radius:5px 0 0 5px}
 					#appreciations .arrow ul li:nth-child(2){left:14px;position:absolute;border-radius:0 5px 5px 0;top:0;-ms-transform:rotate(-45deg);transform:rotate(-45deg)}
 				    #appreciations .arrow:hover{opacity:1}@keyframes b{0%{transform:translateY(0)}50%{transform:translateY(4px)}to{transform:translateY(0)}}
+
+
+
 
 
 

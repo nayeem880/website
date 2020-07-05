@@ -1504,11 +1504,26 @@ order-last{-ms-flex-order:13;order:13}.order-0{-ms-flex-order:0;order:0}
     								    								.navbar{position:relative;padding:.5rem 1rem}.navbar,.navbar>.container,.navbar>.container-fluid{
     								    									display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-ms-flex-align:center;
     								    									align-items:center;-ms-flex-pack:justify;justify-content:space-between}
-    								    									.navbar-brand{display:inline-block;padding-top:.3125rem;padding-bottom:.3125rem;margin-right:1rem;
-    								    										font-size:1.25rem;line-height:inherit;white-space:nowrap}.navbar-brand:focus,
+    								    									
+
+
+
+
+    								    									.navbar-brand{
+    								    										width: auto;
+    								    										padding-top: 5px;
+    								    										padding-bottom:5px;
+    								    										margin-right:5px;
+    								    										font-size:12px;line-height:inherit;white-space:nowrap}
+    								    										.navbar-brand:focus,
     								    										.navbar-brand:hover{text-decoration:none}.navbar-nav{display:-ms-flexbox;
     								    											display:flex;-ms-flex-direction:column;flex-direction:column;padding-left:0;
-    								    											margin-bottom:0;list-style:none}.navbar-nav .nav-link{padding-right:0;padding-left:0}
+    								    											margin-bottom:0;list-style:none}
+
+
+
+
+    								    											.navbar-nav .nav-link{padding-right:0;padding-left:0}
     								    										.navbar-nav .dropdown-menu{position:static;float:none}
     								    										.navbar-text{display:inline-block;padding-top:.5rem;padding-bottom:.5rem}
     								    										.navbar-collapse{-ms-flex-preferred-size:100%;flex-basis:100%;-ms-flex-positive:1;flex-grow:1;
