@@ -1,4 +1,9 @@
+
 .element::-webkit-scrollbar { width: 0 !important }
+::selection {
+  color: inherit;
+  background: #5E5A80;
+}
 
 
 @font-face{
