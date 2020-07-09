@@ -1,149 +1,196 @@
 
-#movement-lgbt{height:calc(100vh - 60px);margin-top:60px;
+#influence{height:calc(100vh - 60px);margin-top:60px;
 					display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;
-					align-items:center;overflow:hidden;position:relative;color:#fff}#movement-lgbt:before{content:"";background-image:url(../cover/lgbt.jpg);
+					align-items:center;overflow:hidden;position:relative;color:#fff}#influence:before{content:"";background-image:url(../cover/women.jpg);
 				background-size:cover;background-position:top;display:block;top:0;left:0;height:100%;width:100%;position:absolute;transition:all 15s}
-				#movement-lgbt p{color:#fff;display:inline-block;margin:15px 20px}@media only screen and (max-width:767px){#movement-lgbt p{display:block;text-align:center}}
-				#movement-lgbt.loaded:before{transform:translate3d(0,20px,0) scale(1.25)}@media only screen and (min-width:768px){#movement-lgbt{min-height:660px}}#movement-lgbt img{margin-bottom:20px;max-width:314px;
+				#influence p{color:#fff;display:inline-block;margin:15px 20px}@media only screen and (max-width:767px){#influence p{display:block;text-align:center}}
+				#influence.loaded:before{transform:translate3d(0,20px,0) scale(1.25)}@media only screen and (min-width:768px){#influence{min-height:660px}}#influence img{margin-bottom:20px;max-width:314px;
 					height:auto}
 
 
 					@media only screen and (max-width:767px){
-						#movement-lgbt img{width:70%;display:block;margin:0 auto 25px}}
-						#movement-lgbt h1{color:#ec008c;font-weight:500;font-size:2.8rem;margin-bottom:50px}
-					    #movement-lgbt h1 span{color:#fff;font-weight:400}
+						#influence img{width:70%;display:block;margin:0 auto 25px}}
+						#influence h1{color:#ec008c;font-weight:500;font-size:2.8rem;margin-bottom:50px}
+					    #influence h1 span{color:#fff;font-weight:400}
 					@media only screen and (max-width:767px){
-					    #movement-lgbt h1{font-size:1.8rem}}
+					    #influence h1{font-size:1.8rem}}
 
-			    #movement-lgbt a.btn{
+			    #influence a.btn{
 			    	background-size:300% 100%;background-position:100% 0;border-radius:10px;font-weight:700;display:inline-block;text-decoration:none;padding:10px 15px;font-size:22px;width:87%;box-shadow:2px 2px 10px #000;margin:0 auto;display:block}
-				#movement-lgbt a.btn,
-				#movement-lgbt a.btn:hover{
+				#influence a.btn,
+				#influence a.btn:hover{
 					background-image:linear-gradient(45deg,#8f0049,#fe0081 50%,#8f0049);color:#fff;transition:all .5s ease-in-out}
-				#movement-lgbt a.btn:hover{background-position:0 0}
+				#influence a.btn:hover{background-position:0 0}
 				@media only screen and (min-width:768px){
-					#movement-lgbt a.btn{width:auto;display:initial}}
-				#movement-lgbt .arrow-container{color:#fff;opacity:.5;transition:1s ease;position:absolute;bottom:0;width:200px;height:50px}
-				#movement-lgbt .arrow-container:hover{opacity:1}
-				#movement-lgbt .arrow-container a{color:#fff}
-				#movement-lgbt .arrow-container a:hover{text-decoration:none}
-				#movement-lgbt .arrow-container p{position:relative;bottom:30px;font-size:20px;width:100%;text-align:center;margin:0}
+					#influence a.btn{width:auto;display:initial}}
+				#influence .arrow-container{color:#fff;opacity:.5;transition:1s ease;position:absolute;bottom:0;width:200px;height:50px}
+				#influence .arrow-container:hover{opacity:1}
+				#influence .arrow-container a{color:#fff}
+				#influence .arrow-container a:hover{text-decoration:none}
+				#influence .arrow-container p{position:relative;bottom:30px;font-size:20px;width:100%;text-align:center;margin:0}
 				
 				@media only screen and (max-width:767px){
-					#movement-lgbt a.btn{
+					#influence a.btn{
                     	width: 100px; height: 
                     }
 
 
-					#movement-lgbt .arrow-container p{opacity:0}}
-					#movement-lgbt .arrow{
+					#influence .arrow-container p{opacity:0}}
+					#influence .arrow{
 						width:38px;height:14px; margin-top: 20px;
 					margin:auto;text-transform:uppercase;letter-spacing:3px;text-align:center;position:relative;left:0;right:0;bottom:30px;
 					animation:b 1.6s linear infinite}
-					#movement-lgbt .arrow ul{list-style:none}
-					#movement-lgbt .arrow ul li{width:24px;height:4px;background:#fff}
-					#movement-lgbt .arrow ul li:first-child{left:0;top:0;position:absolute;-ms-transform:rotate(45deg);transform:rotate(45deg);border-radius:5px 0 0 5px}
-					#movement-lgbt .arrow ul li:nth-child(2){left:14px;position:absolute;border-radius:0 5px 5px 0;top:0;-ms-transform:rotate(-45deg);transform:rotate(-45deg)}
-				    #movement-lgbt .arrow:hover{opacity:1}@keyframes b{0%{transform:translateY(0)}50%{transform:translateY(4px)}to{transform:translateY(0)}}
+					#influence .arrow ul{list-style:none}
+					#influence .arrow ul li{width:24px;height:4px;background:#fff}
+					#influence .arrow ul li:first-child{left:0;top:0;position:absolute;-ms-transform:rotate(45deg);transform:rotate(45deg);border-radius:5px 0 0 5px}
+					#influence .arrow ul li:nth-child(2){left:14px;position:absolute;border-radius:0 5px 5px 0;top:0;-ms-transform:rotate(-45deg);transform:rotate(-45deg)}
+				    #influence .arrow:hover{opacity:1}@keyframes b{0%{transform:translateY(0)}50%{transform:translateY(4px)}to{transform:translateY(0)}}
 
 
 
-
-				#black{height:calc(100vh - 60px);margin-top:60px;
+#movement{height:calc(100vh - 60px);margin-top:60px;
 					display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;
-					align-items:center;overflow:hidden;position:relative;color:#fff}#black:before{content:"";background-image:url(../cover/black1.jpg);
+					align-items:center;overflow:hidden;position:relative;color:#fff}#movement:before{content:"";background-image:url(../cover/palak.jpg);
 				background-size:cover;background-position:top;display:block;top:0;left:0;height:100%;width:100%;position:absolute;transition:all 15s}
-				#black p{color:#fff;display:inline-block;margin:15px 20px}@media only screen and (max-width:767px){#black p{display:block;text-align:center}}
-				#black.loaded:before{transform:translate3d(0,20px,0) scale(1.25)}@media only screen and (min-width:768px){#black{min-height:660px}}#black img{margin-bottom:20px;max-width:314px;
+				#movement p{color:#fff;display:inline-block;margin:15px 20px}@media only screen and (max-width:767px){#movement p{display:block;text-align:center}}
+				#movement.loaded:before{transform:translate3d(0,20px,0) scale(1.25)}@media only screen and (min-width:768px){#movement{min-height:660px}}#movement img{margin-bottom:20px;max-width:314px;
 					height:auto}
 
 
 					@media only screen and (max-width:767px){
-						#black img{width:70%;display:block;margin:0 auto 25px}}
-						#black h1{color:#ec008c;font-weight:500;font-size:2.8rem;margin-bottom:50px}
-					    #black h1 span{color:#fff;font-weight:400}
+						#movement img{width:70%;display:block;margin:0 auto 25px}}
+						#movement h1{color:#ec008c;font-weight:500;font-size:2.8rem;margin-bottom:50px}
+					    #movement h1 span{color:#fff;font-weight:400}
 					@media only screen and (max-width:767px){
-					    #black h1{font-size:1.8rem}}
+					    #movement h1{font-size:1.8rem}}
 
-			    #black a.btn{
+			    #movement a.btn{
 			    	background-size:300% 100%;background-position:100% 0;border-radius:10px;font-weight:700;display:inline-block;text-decoration:none;padding:10px 15px;font-size:22px;width:87%;box-shadow:2px 2px 10px #000;margin:0 auto;display:block}
-				#black a.btn,
-				#black a.btn:hover{
+				#movement a.btn,
+				#movement a.btn:hover{
 					background-image:linear-gradient(45deg,#8f0049,#fe0081 50%,#8f0049);color:#fff;transition:all .5s ease-in-out}
-				#black a.btn:hover{background-position:0 0}
+				#movement a.btn:hover{background-position:0 0}
 				@media only screen and (min-width:768px){
-					#black a.btn{width:auto;display:initial}}
-				#black .arrow-container{color:#fff;opacity:.5;transition:1s ease;position:absolute;bottom:0;width:200px;height:50px}
-				#black .arrow-container:hover{opacity:1}
-				#black .arrow-container a{color:#fff}
-				#black .arrow-container a:hover{text-decoration:none}
-				#black .arrow-container p{position:relative;bottom:30px;font-size:20px;width:100%;text-align:center;margin:0}
+					#movement a.btn{width:auto;display:initial}}
+				#movement .arrow-container{color:#fff;opacity:.5;transition:1s ease;position:absolute;bottom:0;width:200px;height:50px}
+				#movement .arrow-container:hover{opacity:1}
+				#movement .arrow-container a{color:#fff}
+				#movement .arrow-container a:hover{text-decoration:none}
+				#movement .arrow-container p{position:relative;bottom:30px;font-size:20px;width:100%;text-align:center;margin:0}
 				
 				@media only screen and (max-width:767px){
-					#black a.btn{
+					#movement a.btn{
                     	width: 100px; height: 
                     }
 
 
-					#black .arrow-container p{opacity:0}}
-					#black .arrow{
+					#movement .arrow-container p{opacity:0}}
+					#movement .arrow{
 						width:38px;height:14px; margin-top: 20px;
 					margin:auto;text-transform:uppercase;letter-spacing:3px;text-align:center;position:relative;left:0;right:0;bottom:30px;
 					animation:b 1.6s linear infinite}
-					#black .arrow ul{list-style:none}
-					#black .arrow ul li{width:24px;height:4px;background:#fff}
-					#black .arrow ul li:first-child{left:0;top:0;position:absolute;-ms-transform:rotate(45deg);transform:rotate(45deg);border-radius:5px 0 0 5px}
-					#black .arrow ul li:nth-child(2){left:14px;position:absolute;border-radius:0 5px 5px 0;top:0;-ms-transform:rotate(-45deg);transform:rotate(-45deg)}
-				    #black .arrow:hover{opacity:1}@keyframes b{0%{transform:translateY(0)}50%{transform:translateY(4px)}to{transform:translateY(0)}}
+					#movement .arrow ul{list-style:none}
+					#movement .arrow ul li{width:24px;height:4px;background:#fff}
+					#movement .arrow ul li:first-child{left:0;top:0;position:absolute;-ms-transform:rotate(45deg);transform:rotate(45deg);border-radius:5px 0 0 5px}
+					#movement .arrow ul li:nth-child(2){left:14px;position:absolute;border-radius:0 5px 5px 0;top:0;-ms-transform:rotate(-45deg);transform:rotate(-45deg)}
+				    #movement .arrow:hover{opacity:1}@keyframes b{0%{transform:translateY(0)}50%{transform:translateY(4px)}to{transform:translateY(0)}}
 
 
-
-				#un75{height:calc(100vh - 60px);margin-top:60px;
+				#sdgs{height:calc(100vh - 60px);margin-top:60px;
 					display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;
-					align-items:center;overflow:hidden;position:relative;color:#fff}#un75:before{content:"";background-image:url(../cover/un75.jpg);
+					align-items:center;overflow:hidden;position:relative;color:#fff}#sdgs:before{content:"";background-image:url(../cover/sdgs1.jpg);
 				background-size:cover;background-position:top;display:block;top:0;left:0;height:100%;width:100%;position:absolute;transition:all 15s}
-				#un75 p{color:#fff;display:inline-block;margin:15px 20px}@media only screen and (max-width:767px){#un75 p{display:block;text-align:center}}
-				#un75.loaded:before{transform:translate3d(0,20px,0) scale(1.25)}@media only screen and (min-width:768px){#un75{min-height:660px}}#un75 img{margin-bottom:20px;max-width:314px;
+				#sdgs p{color:#fff;display:inline-block;margin:15px 20px}@media only screen and (max-width:767px){#sdgs p{display:block;text-align:center}}
+				#sdgs.loaded:before{transform:translate3d(0,20px,0) scale(1.25)}@media only screen and (min-width:768px){#sdgs{min-height:660px}}#sdgs img{margin-bottom:20px;max-width:314px;
 					height:auto}
 
 
 					@media only screen and (max-width:767px){
-						#un75 img{width:70%;display:block;margin:0 auto 25px}}
-						#un75 h1{color:#ec008c;font-weight:500;font-size:2.8rem;margin-bottom:50px}
-					    #un75 h1 span{color:#fff;font-weight:400}
+						#sdgs img{width:70%;display:block;margin:0 auto 25px}}
+						#sdgs h1{color:#ec008c;font-weight:500;font-size:2.8rem;margin-bottom:50px}
+					    #sdgs h1 span{color:#fff;font-weight:400}
 					@media only screen and (max-width:767px){
-					    #un75 h1{font-size:1.8rem}}
+					    #sdgs h1{font-size:1.8rem}}
 
-			    #un75 a.btn{
+			    #sdgs a.btn{
 			    	background-size:300% 100%;background-position:100% 0;border-radius:10px;font-weight:700;display:inline-block;text-decoration:none;padding:10px 15px;font-size:22px;width:87%;box-shadow:2px 2px 10px #000;margin:0 auto;display:block}
-				#un75 a.btn,
-				#un75 a.btn:hover{
+				#sdgs a.btn,
+				#sdgs a.btn:hover{
 					background-image:linear-gradient(45deg,#8f0049,#fe0081 50%,#8f0049);color:#fff;transition:all .5s ease-in-out}
-				#un75 a.btn:hover{background-position:0 0}
+				#sdgs a.btn:hover{background-position:0 0}
 				@media only screen and (min-width:768px){
-					#un75 a.btn{width:auto;display:initial}}
-				#un75 .arrow-container{color:#fff;opacity:.5;transition:1s ease;position:absolute;bottom:0;width:200px;height:50px}
-				#un75 .arrow-container:hover{opacity:1}
-				#un75 .arrow-container a{color:#fff}
-				#un75 .arrow-container a:hover{text-decoration:none}
-				#un75 .arrow-container p{position:relative;bottom:30px;font-size:20px;width:100%;text-align:center;margin:0}
+					#sdgs a.btn{width:auto;display:initial}}
+				#sdgs .arrow-container{color:#fff;opacity:.5;transition:1s ease;position:absolute;bottom:0;width:200px;height:50px}
+				#sdgs .arrow-container:hover{opacity:1}
+				#sdgs .arrow-container a{color:#fff}
+				#sdgs .arrow-container a:hover{text-decoration:none}
+				#sdgs .arrow-container p{position:relative;bottom:30px;font-size:20px;width:100%;text-align:center;margin:0}
 				
 				@media only screen and (max-width:767px){
-					#un75 a.btn{
+					#sdgs a.btn{
                     	width: 100px; height: 
                     }
 
 
-					#un75 .arrow-container p{opacity:0}}
-					#un75 .arrow{
+					#sdgs .arrow-container p{opacity:0}}
+					#sdgs .arrow{
 						width:38px;height:14px; margin-top: 20px;
 					margin:auto;text-transform:uppercase;letter-spacing:3px;text-align:center;position:relative;left:0;right:0;bottom:30px;
 					animation:b 1.6s linear infinite}
-					#un75 .arrow ul{list-style:none}
-					#un75 .arrow ul li{width:24px;height:4px;background:#fff}
-					#un75 .arrow ul li:first-child{left:0;top:0;position:absolute;-ms-transform:rotate(45deg);transform:rotate(45deg);border-radius:5px 0 0 5px}
-					#un75 .arrow ul li:nth-child(2){left:14px;position:absolute;border-radius:0 5px 5px 0;top:0;-ms-transform:rotate(-45deg);transform:rotate(-45deg)}
-				    #un75 .arrow:hover{opacity:1}@keyframes b{0%{transform:translateY(0)}50%{transform:translateY(4px)}to{transform:translateY(0)}}
+					#sdgs .arrow ul{list-style:none}
+					#sdgs .arrow ul li{width:24px;height:4px;background:#fff}
+					#sdgs .arrow ul li:first-child{left:0;top:0;position:absolute;-ms-transform:rotate(45deg);transform:rotate(45deg);border-radius:5px 0 0 5px}
+					#sdgs .arrow ul li:nth-child(2){left:14px;position:absolute;border-radius:0 5px 5px 0;top:0;-ms-transform:rotate(-45deg);transform:rotate(-45deg)}
+				    #sdgs .arrow:hover{opacity:1}@keyframes b{0%{transform:translateY(0)}50%{transform:translateY(4px)}to{transform:translateY(0)}}
+
+
+
+				#hr{height:calc(100vh - 60px);margin-top:60px;
+					display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;
+					align-items:center;overflow:hidden;position:relative;color:#fff}#hr:before{content:"";background-image:url(../cover/hr.jpg);
+				background-size:cover;background-position:top;display:block;top:0;left:0;height:100%;width:100%;position:absolute;transition:all 15s}
+				#hr p{color:#fff;display:inline-block;margin:15px 20px}@media only screen and (max-width:767px){#hr p{display:block;text-align:center}}
+				#hr.loaded:before{transform:translate3d(0,20px,0) scale(1.25)}@media only screen and (min-width:768px){#hr{min-height:660px}}#hr img{margin-bottom:20px;max-width:314px;
+					height:auto}
+
+
+					@media only screen and (max-width:767px){
+						#hr img{width:70%;display:block;margin:0 auto 25px}}
+						#hr h1{color:#ec008c;font-weight:500;font-size:2.8rem;margin-bottom:50px}
+					    #hr h1 span{color:#fff;font-weight:400}
+					@media only screen and (max-width:767px){
+					    #hr h1{font-size:1.8rem}}
+
+			    #hr a.btn{
+			    	background-size:300% 100%;background-position:100% 0;border-radius:10px;font-weight:700;display:inline-block;text-decoration:none;padding:10px 15px;font-size:22px;width:87%;box-shadow:2px 2px 10px #000;margin:0 auto;display:block}
+				#hr a.btn,
+				#hr a.btn:hover{
+					background-image:linear-gradient(45deg,#8f0049,#fe0081 50%,#8f0049);color:#fff;transition:all .5s ease-in-out}
+				#hr a.btn:hover{background-position:0 0}
+				@media only screen and (min-width:768px){
+					#hr a.btn{width:auto;display:initial}}
+				#hr .arrow-container{color:#fff;opacity:.5;transition:1s ease;position:absolute;bottom:0;width:200px;height:50px}
+				#hr .arrow-container:hover{opacity:1}
+				#hr .arrow-container a{color:#fff}
+				#hr .arrow-container a:hover{text-decoration:none}
+				#hr .arrow-container p{position:relative;bottom:30px;font-size:20px;width:100%;text-align:center;margin:0}
+				
+				@media only screen and (max-width:767px){
+					#hr a.btn{
+                    	width: 100px; height: 
+                    }
+
+
+					#hr .arrow-container p{opacity:0}}
+					#hr .arrow{
+						width:38px;height:14px; margin-top: 20px;
+					margin:auto;text-transform:uppercase;letter-spacing:3px;text-align:center;position:relative;left:0;right:0;bottom:30px;
+					animation:b 1.6s linear infinite}
+					#hr .arrow ul{list-style:none}
+					#hr .arrow ul li{width:24px;height:4px;background:#fff}
+					#hr .arrow ul li:first-child{left:0;top:0;position:absolute;-ms-transform:rotate(45deg);transform:rotate(45deg);border-radius:5px 0 0 5px}
+					#hr .arrow ul li:nth-child(2){left:14px;position:absolute;border-radius:0 5px 5px 0;top:0;-ms-transform:rotate(-45deg);transform:rotate(-45deg)}
+				    #hr .arrow:hover{opacity:1}@keyframes b{0%{transform:translateY(0)}50%{transform:translateY(4px)}to{transform:translateY(0)}}
 
 
 

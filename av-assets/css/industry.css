@@ -1,7 +1,7 @@
 
 #industry{height:calc(100vh - 60px);margin-top:60px;
 					display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;
-					align-items:center;overflow:hidden;position:relative;color:#fff}#industry:before{content:"";background-image:url(../cover/lgbt.jpg);
+					align-items:center;overflow:hidden;position:relative;color:#fff}#industry:before{content:"";background-image:url(../profile/industry.jpg);
 				background-size:cover;background-position:top;display:block;top:0;left:0;height:100%;width:100%;position:absolute;transition:all 15s}
 				#industry p{color:#fff;display:inline-block;margin:15px 20px}@media only screen and (max-width:767px){#industry p{display:block;text-align:center}}
 				#industry.loaded:before{transform:translate3d(0,20px,0) scale(1.25)}@media only screen and (min-width:768px){#industry{min-height:660px}}#industry img{margin-bottom:20px;max-width:314px;

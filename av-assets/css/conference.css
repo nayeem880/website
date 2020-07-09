@@ -1,7 +1,7 @@
 
 #conferences{height:calc(100vh - 60px);margin-top:60px;
 					display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;
-					align-items:center;overflow:hidden;position:relative;color:#fff}#conferences:before{content:"";background-image:url(../imgg/con2.jpg);
+					align-items:center;overflow:hidden;position:relative;color:#fff}#conferences:before{content:"";background-image:url(../profile/conf.jpg);
 				background-size:cover;background-position:top;display:block;top:0;left:0;height:100%;width:100%;position:absolute;transition:all 15s}
 				#conferences p{color:#fff;display:inline-block;margin:15px 20px}@media only screen and (max-width:767px){#conferences p{display:block;text-align:center}}
 				#conferences.loaded:before{transform:translate3d(0,20px,0) scale(1.25)}@media only screen and (min-width:768px){#conferences{min-height:660px}}#conferences img{margin-bottom:20px;max-width:314px;
@@ -51,7 +51,7 @@
 
 				#jmun{height:calc(100vh - 60px);margin-top:60px;
 					display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;
-					align-items:center;overflow:hidden;position:relative;color:#fff}#jmun:before{content:"";background-image:url(../imgg/con1.jpg);
+					align-items:center;overflow:hidden;position:relative;color:#fff}#jmun:before{content:"";background-image:url(../profile/bupimun.jpg);
 				background-size:cover;background-position:top;display:block;top:0;left:0;height:100%;width:100%;position:absolute;transition:all 15s}
 				#jmun p{color:#fff;display:inline-block;margin:15px 20px}@media only screen and (max-width:767px){#jmun p{display:block;text-align:center}}
 				#jmun.loaded:before{transform:translate3d(0,20px,0) scale(1.25)}@media only screen and (min-width:768px){#jmun{min-height:660px}}#jmun img{margin-bottom:20px;max-width:314px;
@@ -100,7 +100,7 @@
 
 				#bupimun{height:calc(100vh - 60px);margin-top:60px;
 					display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;
-					align-items:center;overflow:hidden;position:relative;color:#fff}#bupimun:before{content:"";background-image:url(../imgg/con3.jpg);
+					align-items:center;overflow:hidden;position:relative;color:#fff}#bupimun:before{content:"";background-image:url(../profile/bupimun1.jpg);
 				background-size:cover;background-position:top;display:block;top:0;left:0;height:100%;width:100%;position:absolute;transition:all 15s}
 				#bupimun p{color:#fff;display:inline-block;margin:15px 20px}@media only screen and (max-width:767px){#bupimun p{display:block;text-align:center}}
 				#bupimun.loaded:before{transform:translate3d(0,20px,0) scale(1.25)}@media only screen and (min-width:768px){#bupimun{min-height:660px}}#bupimun img{margin-bottom:20px;max-width:314px;
