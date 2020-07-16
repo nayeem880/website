@@ -1,0 +1,93 @@
+
+#hero-education{height:calc(100vh - 60px);margin-top:60px;
+					display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;
+					align-items:center;overflow:hidden;position:relative;color:#fff}#hero-education:before{content:"";background-image:url(../cover/writing.jpg);
+				background-size:cover;background-position:top;display:block;top:0;left:0;height:100%;width:100%;position:absolute;transition:all 15s}
+				#hero-education p{color:#fff;display:inline-block;margin:15px 20px}@media only screen and (max-width:767px){#hero-education p{display:block;text-align:center}}
+				#hero-education.loaded:before{transform:translate3d(0,20px,0) scale(1.25)}@media only screen and (min-width:768px){#hero-education{min-height:660px}}#hero-education img{margin-bottom:20px;max-width:314px;
+					height:auto}
+
+
+					@media only screen and (max-width:767px){
+						#hero-education img{width:70%;display:block;margin:0 auto 25px}}
+						#hero-education h1{color:#ec008c;font-weight:500;font-size:2.8rem;margin-bottom:50px}
+					    #hero-education h1 span{color:#fff;font-weight:400}
+					@media only screen and (max-width:767px){
+					    #hero-education h1{font-size:1.8rem}}
+
+			    #hero-education a.btn{
+			    	background-size:300% 100%;background-position:100% 0;border-radius:10px;font-weight:700;display:inline-block;text-decoration:none;padding:10px 15px;font-size:22px;width:87%;box-shadow:2px 2px 10px #000;margin:0 auto;display:block}
+				#hero-education a.btn,
+				#hero-education a.btn:hover{
+					background-image:linear-gradient(45deg,#8f0049,#fe0081 50%,#8f0049);color:#fff;transition:all .5s ease-in-out}
+				#hero-education a.btn:hover{background-position:0 0}
+				@media only screen and (min-width:768px){
+					#hero-education a.btn{width:auto;display:initial}}
+				#hero-education .arrow-container{color:#fff;opacity:.5;transition:1s ease;position:absolute;bottom:0;width:200px;height:50px}
+				#hero-education .arrow-container:hover{opacity:1}
+				#hero-education .arrow-container a{color:#fff}
+				#hero-education .arrow-container a:hover{text-decoration:none}
+				#hero-education .arrow-container p{position:relative;bottom:30px;font-size:20px;width:100%;text-align:center;margin:0}
+				
+				@media only screen and (max-width:767px){
+					#hero-education a.btn{
+                    	width: 100px; height: 
+                    }
+
+
+					#hero-education .arrow-container p{opacity:0}}
+					#hero-education .arrow{
+						width:38px;height:14px; margin-top: 20px;
+					margin:auto;text-transform:uppercase;letter-spacing:3px;text-align:center;position:relative;left:0;right:0;bottom:30px;
+					animation:b 1.6s linear infinite}
+					#hero-education .arrow ul{list-style:none}
+					#hero-education .arrow ul li{width:24px;height:4px;background:#fff}
+					#hero-education .arrow ul li:first-child{left:0;top:0;position:absolute;-ms-transform:rotate(45deg);transform:rotate(45deg);border-radius:5px 0 0 5px}
+					#hero-education .arrow ul li:nth-child(2){left:14px;position:absolute;border-radius:0 5px 5px 0;top:0;-ms-transform:rotate(-45deg);transform:rotate(-45deg)}
+				    #hero-education .arrow:hover{opacity:1}@keyframes b{0%{transform:translateY(0)}50%{transform:translateY(4px)}to{transform:translateY(0)}}
+
+
+
+				#education{padding:155px 0 120px;background-image:url(../profile/.jpg);
+					background-color:#000;background-size:200%;background-repeat:no-repeat;
+					text-align:center;min-height:670px;color:#fff}
+			
+
+			@media only screen and (min-width:992px){#education{padding:30px 0 0;height:calc(100vh - 60px);
+
+					display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;background-size:contain;
+					background-position:0 0}}#education h2{color:#e6007f;
+						font-weight:500;text-align:right;font-size:44px;
+						margin-bottom:40px!important;
+					position:relative;text-transform:uppercase}#education h2:after{content:"\A";position:absolute;bottom:-5px;width:350px;height:7px;
+				background:#e6007f;display:block;right:-78px}@media only screen and (max-width:991px){#education h2{text-align:center;display:block}#education 
+				h2:after{width:100%;right:0}}#education h3{color:#fff;text-align:right;margin-bottom:0;position:relative;font-weight:500;letter-spacing:.05em;
+					text-transform:uppercase}#education h3:after{content:"\A";position:relative;background:#e6007f;display:block;left:5px;height:4px;
+				width:100%}@media only screen and (min-width:992px){#education h3.fun-mobile{display:none}}@media only screen and (max-width:991px){#education
+				 h3{text-align:center}}#education .right-col{margin-top:-72px}#education .right-col h3{color:#fff;text-align:left;left:-169px;width:147%}
+				#education .right-col h3:after{background:#e6007f;display:block;left:5px}@media only screen and (max-width:991px){#education .right-col h3,
+					#education .right-col h3.fun-mobile{left:0;text-align:center;width:100%}#education .right-col h3:last-of-type{display:none}}
+				#education .right-col ul{text-align:left}#education .right-col ul:last-of-type{margin-bottom:-32px;margin-top:100px}
+				@media only screen and (max-width:991px){#education .right-col ul:last-of-type{margin-top:10px}}#education ul{text-align:right;margin-top:10px}
+				@media only screen and (max-width:991px){#education ul{text-align:left;padding:0}}#education ul li{list-style:none;background:#282828;
+					color:#fff;padding:5px;line-height:20px;margin-bottom:3px}#education ul li:nth-child(2n){background:#161616}
+
+
+
+
+
+.example{
+  overflow-y: scroll;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.example::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE and Edge */
+.example {
+    -ms-overflow-style: none;
+}
+
+
