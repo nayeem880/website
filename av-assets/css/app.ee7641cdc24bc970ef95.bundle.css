@@ -2558,8 +2558,8 @@ body{
 
 
 .my-btn-top{
-	width: 180px; 
-	height: auto;
+	width: 150px; 
+	height: 20px;
 	background-color: transparent;
 	margin: 10px; 
 	cursor: pointer;
@@ -2568,13 +2568,10 @@ body{
 	border-radius: 20px;
 	font-size: 12px;
 	text-align: center;
-    padding: 10px;
-
 
     transition: background-color .3s, 
     opacity .5s, visibility 1s;
   opacity: 0;
-  visibility: hidden;
   z-index: 1000;
 }
 
