@@ -1,99 +1,126 @@
 
-#influence{height:calc(100vh - 60px);margin-top:60px;
+#hero-influence{height:calc(100vh - 60px);margin-top:60px;
 					display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;
-					align-items:center;overflow:hidden;position:relative;color:#fff}#influence:before{content:"";background-image:url(../cover/women.jpg);
+					align-items:center;overflow:hidden;position:relative;color:#fff}#hero-influence:before{content:"";background-image:url(../cover/women.jpg);
 				background-size:cover;background-position:top;display:block;top:0;left:0;height:100%;width:100%;position:absolute;transition:all 15s}
-				#influence p{color:#fff;display:inline-block;margin:15px 20px}@media only screen and (max-width:767px){#influence p{display:block;text-align:center}}
-				#influence.loaded:before{transform:translate3d(0,20px,0) scale(1.25)}@media only screen and (min-width:768px){#influence{min-height:660px}}#influence img{margin-bottom:20px;max-width:314px;
+				#hero-influence p{color:#fff;display:inline-block;margin:15px 20px}@media only screen and (max-width:767px){#hero-influence p{display:block;text-align:center}}
+				#hero-influence.loaded:before{transform:translate3d(0,20px,0) scale(1.25)}@media only screen and (min-width:768px){#hero-influence{min-height:660px}}#hero-influence img{margin-bottom:20px;max-width:314px;
 					height:auto}
 
 
 					@media only screen and (max-width:767px){
-						#influence img{width:70%;display:block;margin:0 auto 25px}}
-						#influence h1{color:#ec008c;font-weight:500;font-size:2.8rem;margin-bottom:50px}
-					    #influence h1 span{color:#fff;font-weight:400}
+						#hero-influence img{width:70%;display:block;margin:0 auto 25px}}
+						#hero-influence h1{color:#ec008c;font-weight:500;font-size:2.8rem;margin-bottom:50px}
+					    #hero-influence h1 span{color:#fff;font-weight:400}
 					@media only screen and (max-width:767px){
-					    #influence h1{font-size:1.8rem}}
+					    #hero-influence h1{font-size:1.8rem}}
 
-			    #influence a.btn{
+			    #hero-influence a.btn{
 			    	background-size:300% 100%;background-position:100% 0;border-radius:10px;font-weight:700;display:inline-block;text-decoration:none;padding:10px 15px;font-size:22px;width:87%;box-shadow:2px 2px 10px #000;margin:0 auto;display:block}
-				#influence a.btn,
-				#influence a.btn:hover{
+				#hero-influence a.btn,
+				#hero-influence a.btn:hover{
 					background-image:linear-gradient(45deg,#8f0049,#fe0081 50%,#8f0049);color:#fff;transition:all .5s ease-in-out}
-				#influence a.btn:hover{background-position:0 0}
+				#hero-influence a.btn:hover{background-position:0 0}
 				@media only screen and (min-width:768px){
-					#influence a.btn{width:auto;display:initial}}
-				#influence .arrow-container{color:#fff;opacity:.5;transition:1s ease;position:absolute;bottom:0;width:200px;height:50px}
-				#influence .arrow-container:hover{opacity:1}
-				#influence .arrow-container a{color:#fff}
-				#influence .arrow-container a:hover{text-decoration:none}
-				#influence .arrow-container p{position:relative;bottom:30px;font-size:20px;width:100%;text-align:center;margin:0}
+					#hero-influence a.btn{width:auto;display:initial}}
+				#hero-influence .arrow-container{color:#fff;opacity:.5;transition:1s ease;position:absolute;bottom:0;width:200px;height:50px}
+				#hero-influence .arrow-container:hover{opacity:1}
+				#hero-influence .arrow-container a{color:#fff}
+				#hero-influence .arrow-container a:hover{text-decoration:none}
+				#hero-influence .arrow-container p{position:relative;bottom:30px;font-size:20px;width:100%;text-align:center;margin:0}
 				
 				@media only screen and (max-width:767px){
-					#influence a.btn{
+					#hero-influence a.btn{
                     	width: 100px; height: 
                     }
 
 
-					#influence .arrow-container p{opacity:0}}
-					#influence .arrow{
+					#hero-influence .arrow-container p{opacity:0}}
+					#hero-influence .arrow{
 						width:38px;height:14px; margin-top: 20px;
 					margin:auto;text-transform:uppercase;letter-spacing:3px;text-align:center;position:relative;left:0;right:0;bottom:30px;
 					animation:b 1.6s linear infinite}
-					#influence .arrow ul{list-style:none}
-					#influence .arrow ul li{width:24px;height:4px;background:#fff}
-					#influence .arrow ul li:first-child{left:0;top:0;position:absolute;-ms-transform:rotate(45deg);transform:rotate(45deg);border-radius:5px 0 0 5px}
-					#influence .arrow ul li:nth-child(2){left:14px;position:absolute;border-radius:0 5px 5px 0;top:0;-ms-transform:rotate(-45deg);transform:rotate(-45deg)}
-				    #influence .arrow:hover{opacity:1}@keyframes b{0%{transform:translateY(0)}50%{transform:translateY(4px)}to{transform:translateY(0)}}
+					#hero-influence .arrow ul{list-style:none}
+					#hero-influence .arrow ul li{width:24px;height:4px;background:#fff}
+					#hero-influence .arrow ul li:first-child{left:0;top:0;position:absolute;-ms-transform:rotate(45deg);transform:rotate(45deg);border-radius:5px 0 0 5px}
+					#hero-influence .arrow ul li:nth-child(2){left:14px;position:absolute;border-radius:0 5px 5px 0;top:0;-ms-transform:rotate(-45deg);transform:rotate(-45deg)}
+				    #hero-influence .arrow:hover{opacity:1}@keyframes b{0%{transform:translateY(0)}50%{transform:translateY(4px)}to{transform:translateY(0)}}
 
 
 
-#movement{height:calc(100vh - 60px);margin-top:60px;
+				#influential{padding:155px 0 120px;background-image:url(../profile/.jpg);
+					background-color:#000;background-size:200%;background-repeat:no-repeat;
+					text-align:center;min-height:670px;color:#fff}
+			
+
+			@media only screen and (min-width:992px){#influential{padding:30px 0 0;height:calc(100vh - 60px);
+
+					display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;background-size:contain;
+					background-position:0 0}}#influential h2{color:#e6007f;
+						font-weight:500;text-align:right;font-size:44px;
+						margin-bottom:40px!important;
+					position:relative;text-transform:uppercase}#influential h2:after{content:"\A";position:absolute;bottom:-5px;width:350px;height:7px;
+				background:#e6007f;display:block;right:-78px}@media only screen and (max-width:991px){#influential h2{text-align:center;display:block}#influential 
+				h2:after{width:100%;right:0}}#influential h3{color:#fff;text-align:right;margin-bottom:0;position:relative;font-weight:500;letter-spacing:.05em;
+					text-transform:uppercase}#influential h3:after{content:"\A";position:relative;background:#e6007f;display:block;left:5px;height:4px;
+				width:100%}@media only screen and (min-width:992px){#influential h3.fun-mobile{display:none}}@media only screen and (max-width:991px){#influential
+				 h3{text-align:center}}#influential .right-col{margin-top:-72px}#influential .right-col h3{color:#fff;text-align:left;left:-169px;width:147%}
+				#influential .right-col h3:after{background:#e6007f;display:block;left:5px}@media only screen and (max-width:991px){#influential .right-col h3,
+					#influential .right-col h3.fun-mobile{left:0;text-align:center;width:100%}#influential .right-col h3:last-of-type{display:none}}
+				#influential .right-col ul{text-align:left}#influential .right-col ul:last-of-type{margin-bottom:-32px;margin-top:100px}
+				@media only screen and (max-width:991px){#influential .right-col ul:last-of-type{margin-top:10px}}#influential ul{text-align:right;margin-top:10px}
+				@media only screen and (max-width:991px){#influential ul{text-align:left;padding:0}}#influential ul li{list-style:none;background:#282828;
+					color:#fff;padding:5px;line-height:20px;margin-bottom:3px}#influential ul li:nth-child(2n){background:#161616}
+
+
+
+
+#sdgs{height:calc(100vh - 60px);margin-top:60px;
 					display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;
-					align-items:center;overflow:hidden;position:relative;color:#fff}#movement:before{content:"";background-image:url(../cover/palak.jpg);
+					align-items:center;overflow:hidden;position:relative;color:#fff}#sdgs:before{content:"";background-image:url(../cover/palak.jpg);
 				background-size:cover;background-position:top;display:block;top:0;left:0;height:100%;width:100%;position:absolute;transition:all 15s}
-				#movement p{color:#fff;display:inline-block;margin:15px 20px}@media only screen and (max-width:767px){#movement p{display:block;text-align:center}}
-				#movement.loaded:before{transform:translate3d(0,20px,0) scale(1.25)}@media only screen and (min-width:768px){#movement{min-height:660px}}#movement img{margin-bottom:20px;max-width:314px;
+				#sdgs p{color:#fff;display:inline-block;margin:15px 20px}@media only screen and (max-width:767px){#sdgs p{display:block;text-align:center}}
+				#sdgs.loaded:before{transform:translate3d(0,20px,0) scale(1.25)}@media only screen and (min-width:768px){#sdgs{min-height:660px}}#sdgs img{margin-bottom:20px;max-width:314px;
 					height:auto}
 
 
 					@media only screen and (max-width:767px){
-						#movement img{width:70%;display:block;margin:0 auto 25px}}
-						#movement h1{color:#ec008c;font-weight:500;font-size:2.8rem;margin-bottom:50px}
-					    #movement h1 span{color:#fff;font-weight:400}
+						#sdgs img{width:70%;display:block;margin:0 auto 25px}}
+						#sdgs h1{color:#ec008c;font-weight:500;font-size:2.8rem;margin-bottom:50px}
+					    #sdgs h1 span{color:#fff;font-weight:400}
 					@media only screen and (max-width:767px){
-					    #movement h1{font-size:1.8rem}}
+					    #sdgs h1{font-size:1.8rem}}
 
-			    #movement a.btn{
+			    #sdgs a.btn{
 			    	background-size:300% 100%;background-position:100% 0;border-radius:10px;font-weight:700;display:inline-block;text-decoration:none;padding:10px 15px;font-size:22px;width:87%;box-shadow:2px 2px 10px #000;margin:0 auto;display:block}
-				#movement a.btn,
-				#movement a.btn:hover{
+				#sdgs a.btn,
+				#sdgs a.btn:hover{
 					background-image:linear-gradient(45deg,#8f0049,#fe0081 50%,#8f0049);color:#fff;transition:all .5s ease-in-out}
-				#movement a.btn:hover{background-position:0 0}
+				#sdgs a.btn:hover{background-position:0 0}
 				@media only screen and (min-width:768px){
-					#movement a.btn{width:auto;display:initial}}
-				#movement .arrow-container{color:#fff;opacity:.5;transition:1s ease;position:absolute;bottom:0;width:200px;height:50px}
-				#movement .arrow-container:hover{opacity:1}
-				#movement .arrow-container a{color:#fff}
-				#movement .arrow-container a:hover{text-decoration:none}
-				#movement .arrow-container p{position:relative;bottom:30px;font-size:20px;width:100%;text-align:center;margin:0}
+					#sdgs a.btn{width:auto;display:initial}}
+				#sdgs .arrow-container{color:#fff;opacity:.5;transition:1s ease;position:absolute;bottom:0;width:200px;height:50px}
+				#sdgs .arrow-container:hover{opacity:1}
+				#sdgs .arrow-container a{color:#fff}
+				#sdgs .arrow-container a:hover{text-decoration:none}
+				#sdgs .arrow-container p{position:relative;bottom:30px;font-size:20px;width:100%;text-align:center;margin:0}
 				
 				@media only screen and (max-width:767px){
-					#movement a.btn{
+					#sdgs a.btn{
                     	width: 100px; height: 
                     }
 
 
-					#movement .arrow-container p{opacity:0}}
-					#movement .arrow{
+					#sdgs .arrow-container p{opacity:0}}
+					#sdgs .arrow{
 						width:38px;height:14px; margin-top: 20px;
 					margin:auto;text-transform:uppercase;letter-spacing:3px;text-align:center;position:relative;left:0;right:0;bottom:30px;
 					animation:b 1.6s linear infinite}
-					#movement .arrow ul{list-style:none}
-					#movement .arrow ul li{width:24px;height:4px;background:#fff}
-					#movement .arrow ul li:first-child{left:0;top:0;position:absolute;-ms-transform:rotate(45deg);transform:rotate(45deg);border-radius:5px 0 0 5px}
-					#movement .arrow ul li:nth-child(2){left:14px;position:absolute;border-radius:0 5px 5px 0;top:0;-ms-transform:rotate(-45deg);transform:rotate(-45deg)}
-				    #movement .arrow:hover{opacity:1}@keyframes b{0%{transform:translateY(0)}50%{transform:translateY(4px)}to{transform:translateY(0)}}
+					#sdgs .arrow ul{list-style:none}
+					#sdgs .arrow ul li{width:24px;height:4px;background:#fff}
+					#sdgs .arrow ul li:first-child{left:0;top:0;position:absolute;-ms-transform:rotate(45deg);transform:rotate(45deg);border-radius:5px 0 0 5px}
+					#sdgs .arrow ul li:nth-child(2){left:14px;position:absolute;border-radius:0 5px 5px 0;top:0;-ms-transform:rotate(-45deg);transform:rotate(-45deg)}
+				    #sdgs .arrow:hover{opacity:1}@keyframes b{0%{transform:translateY(0)}50%{transform:translateY(4px)}to{transform:translateY(0)}}
 
 
 				#sdgs{height:calc(100vh - 60px);margin-top:60px;
@@ -193,8 +220,30 @@
 				    #hr .arrow:hover{opacity:1}@keyframes b{0%{transform:translateY(0)}50%{transform:translateY(4px)}to{transform:translateY(0)}}
 
 
+	#ignite{padding:100px 0;display:-ms-flexbox;display:flex;
+					-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;align-items:center;overflow:hidden;position:relative;
+		
+
+background-image:url(../img/rr.png);background-size:cover;text-align:center;background-position:50%;color:#fff}
+@media only screen and (min-width:992px){#ignite{min-height:670px;height:calc(100vh - 60px);padding:0}}#ignite 
+img{max-width:330px;margin-bottom:40px;width:60%}#ignite h2{color:#fff;font-weight:500;font-size:8rem;
+	text-transform:uppercase;max-width:920px;margin:0 auto 30px}#ignite h2 span{color:#ec008c}
+
+@media only screen and (min-width:768px) and (max-width:1199px){#ignite h2{font-size:6rem}}
+@media only screen and (max-width:767px){#ignite h2{font-size:3.3rem}}
+#ignite
 
 
+
+
+.btn{background-image:linear-gradient(45deg,#8f0049,#fe0081 50%,#54002b);
+	background-size:300% 100%;background-position:100% 0;border-radius:30px;
+	font-weight:700;text-decoration:none;padding:5px 15px;font-size:22px;
+	box-shadow:2px 2px 10px #000;margin:0 10px 20px;display:inline-block;
+	width:200px;line-height:1.3em;text-transform:uppercase}
+#ignite .btn,#ignite .btn:hover{color:#fff;transition:all .5s ease-in-out}
+#ignite .btn:hover{background-image:linear-gradient(45deg,#8f0049,#fe0081 50%,#8f0049);
+	background-position:0 0}footer{background:#262626;color:#fff;text-align:left;padding:50px 0 20px}
 
 .example{
   overflow-y: scroll;
