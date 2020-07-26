@@ -2370,6 +2370,7 @@ justify-content:center!important}
 					#process img{margin-bottom:0}}#process h5.first{color:#be006b}#process h5.second,#process h5.third{color:#fa0080}#process h5.fourth{color:#4493d3}
 				#competing{padding:100px 0;display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;align-items:center;
 					overflow:hidden;position:relative;background-image:url(../imgg/sjj.jpg);background-size:cover;text-align:center;background-position:50%;color:#fff}
+					
 				@media only screen and (max-width:767px){#competing{text-align:left}}@media only screen and (min-width:992px){#competing{min-height:670px;
 					height:calc(100vh - 60px);padding:0}}#competing h2{color:#ec008c;font-weight:500;font-size:2.5rem;text-transform:uppercase;max-width:920px;
 					margin:0 auto 30px;text-align:center}#competing h2 span{color:#fff}@media only screen and (max-width:767px){#competing h2{font-size:1.8rem}}

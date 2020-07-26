@@ -74,7 +74,20 @@
 
 
 
+#champion{padding:20px 0;display:-ms-flexbox;
+					display:flex;-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;align-items:center;overflow:hidden;
+					position:relative;
+					text-align:center;
+					background-color: black; background-size:cover;text-align:center;
+					background-position:50%;min-height:670px;
+					color:#343a40}
 
+					@media only screen and (min-width:992px){#champion{min-height:670px}}#champion .container
+				{max-width:1300px}#champion .container>div:first-of-type{max-width:1140px;margin:0 auto}#champion .container>div:last-of-type{position:relative}
+				#champion h2{color:#ec008c;font-weight:500;width:100%;margin-bottom:20px}#champion h2 span{color:#343a40}@media only screen and (max-width:767px)
+				{#champion h2{font-size:1.8rem}}#champion p{margin-bottom:0}#champion h3{color:#ec008c}@media only screen and (max-width:767px){#champion
+				 h3{margin-bottom:60px}}#champion img{margin-top:50px;max-width:100%;margin-bottom:20px;height:auto}@media only screen and (max-width:991px){
+					#champion img{margin-bottom:0}}#champion h5.first{color:#be006b}#champion h5.second,#champion h5.third{color:#fa0080}#champion h5.fourth{color:#4493d3}
 
 .example{
   overflow-y: scroll;
